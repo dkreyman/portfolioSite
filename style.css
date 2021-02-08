@@ -79,3 +79,9 @@ a:active {
 footer {
   margin-top: 7rem;
 }
+
+hr {
+  height: 1px;
+  color: black;
+  background-color: black;
+}
