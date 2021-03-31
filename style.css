@@ -4,6 +4,10 @@
   line-height: 1.5;
 }
 
+html {
+  display: flex;
+}
+
 /* cursive david kreyman page heading */
 header h1 {
   text-align: center;
@@ -14,6 +18,10 @@ header h1 {
 
 h2 {
   margin-top: 2rem;
+}
+
+h6 {
+  display: none;
 }
 
 /* Nav Menu Elements */
@@ -122,15 +130,15 @@ textarea {
 
 /* email, linkedIn Github */
 .column ol li {
-  margin-right: 10rem;
+  margin-left: 5rem;
+  margin-top: 0.5rem;
   float: left;
 }
 /* Map */
 iframe {
   margin-top: 2rem;
-  width: 70%;
+  width: 100%;
   height: 80%;
-  margin-left: 2.2rem;
 }
 
 footer {
@@ -174,5 +182,9 @@ hr {
   /* Make About paragraph look cleaner */
   #squish {
     margin: 2rem 10rem 2rem 10rem;
+  }
+
+  iframe {
+    margin-left: 3.5rem;
   }
 }
